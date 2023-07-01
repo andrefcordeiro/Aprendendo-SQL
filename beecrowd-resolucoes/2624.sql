@@ -1,0 +1,4 @@
+SELECT COUNT(*)
+FROM 
+(SELECT DISTINCT c.city
+FROM customers c) s
